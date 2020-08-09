@@ -1,6 +1,6 @@
 "use strict"
 
-getHole = index => document.getElementById(`hole${index}`);
+let getHole = index => document.getElementById(`hole${index}`);
 let dead = document.getElementById('dead');
 let lost = document.getElementById('lost');
 
